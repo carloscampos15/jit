@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.RoutesFragment"
+    android:keepScreenOn="true">
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/sv_from"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/bg_round"
+            android:elevation="4dp"
+            app:iconifiedByDefault="false"
+            app:queryHint="¿Dónde estas?"
+            app:queryBackground="@null"/>
+
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/sv_where"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/bg_round"
+            app:iconifiedByDefault="false"
+            app:queryHint="¿Para dónde vas?"
+            android:elevation="4dp"
+            android:layout_below="@id/sv_from"
+            app:queryBackground="@null"/>
+
+        <Button
+            android:id="@+id/buttonNext2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="130dp"
+            android:layout_marginEnd="130dp"
+            android:layout_marginBottom="30dp"
+            android:text="@string/btnSearchRoute"
+            android:textAllCaps="false"
+            android:textSize ="18sp"
+            app:iconSize="20dp" />
+    </RelativeLayout>
+
+</FrameLayout>

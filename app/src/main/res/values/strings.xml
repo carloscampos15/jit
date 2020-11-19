@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Just in time</string>
+
+    <string name="greeting1">¡Hola!</string>
+    <string name="greeting2">Pipe, Díaz y Patty quieren hacerte recomendaciones para usar la App Just In Time.</string>
+    <string name="option1">Presiona “Ver recomendaciones” para conocer los consejos de Pipe, Díaz y Patty.</string>
+    <string name="btnRecomendations">Ver recomendaciones</string>
+    <string name="option2">Presiona “Quiero buscar rutas” para comenzar a usar la App. </string>
+    <string name="btnRoutes">Quiero buscar rutas</string>
+    <string name="textIntroduction1">Para buscar las rutas y horarios</string>
+    <string name="textIntroduction2">Ingresa tu ubicación actual* y tu destino, luego oprime el botón “Buscar”. Ahora conocerás las Rutas y horarios.</string>
+    <string name="btnNext1">Entendido</string>
+    <string name="textIntroduction3">* Es posible obtener tu ubicación actual de forma automática, para hacerlo deberás otorgar el permiso necesario desde la configuración de tu teléfono móvil.</string>
+    <string name="textIntroduction4">Visualizar las rutas</string>
+    <string name="textIntroduction5">Ahora podrás ver las diferentes rutas entre tu ubicación actual y tu destino.</string>
+    <string name="textIntroduction6">Conocer más sobre las rutas</string>
+    <string name="textIntroduction7">Puedes ver más detalles sobre la ruta seleccionada como: Paradero, tiempo aproximado de llegada, recorrido y horario.</string>
+    <string name="textIntroduction8">Ahora estas preparado para hacer parte de la comunidad Just in time y optimizar tu tiempo.</string>
+    <string name="btnStart">Conocer las rutas</string>
+
+    <string name="menuHome">Inicio</string>
+    <string name="menuRoute">Rutas</string>
+    <string name="menuSettigns">Configuración</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="google_maps_key">AIzaSyCNv5SHUEl0TUT5maLojSDaq0rIf0XUc9o</string>
+
+    <string name="btnSearchRoute">Buscar</string>
+
+    <string name="btn_facebook">Iniciar con facebook</string>
+    <string name="btn_google">Iniciar con google</string>
+
+    <string name="textIntroduction9">Inicia sesión para acceder a mas funcionalidades.</string>
+
+    <string name="context_lock_preferences">context_lock_preferences</string>
+    <string name="saved_state_key">state</string>
+</resources>
